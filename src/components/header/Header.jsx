@@ -19,7 +19,13 @@ const Header = () => {
 		<Navbar bg='light' expand='lg'>
 			<Container>
 				<LinkContainer to='/'>
-					<Navbar.Brand>Ala-Too Store</Navbar.Brand>
+					<Navbar.Brand>
+						<img
+							src='https://ocs.alatoo.edu.kg/pluginfile.php/1/core_admin/logocompact/300x300/1684120109/Logo.png'
+							alt=''
+						/>
+						Ala-Too Store
+					</Navbar.Brand>
 				</LinkContainer>
 				<Navbar.Toggle aria-controls='basic-navbar-nav' />
 				<Navbar.Collapse id='basic-navbar-nav'>

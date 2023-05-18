@@ -3,9 +3,24 @@
 	display: block !important;
 }
 
-.logo {
-	width: 50px;
+.navbar-brand {
+	img {
+		width: 40px;
+		height: 40px;
+		margin-right: 10px;
+	}
 }
+
+.navbar {
+	.container {
+		.navbar-collapse {
+			flex-grow: 0;
+		}
+	}
+}
+
+
+
 
 #cartcount {
 	font-size: 10px;
